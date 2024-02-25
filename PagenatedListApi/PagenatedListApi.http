@@ -1,0 +1,11 @@
+@PagenatedListApi_HostAddress = http://localhost:5118
+
+GET {{PagenatedListApi_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{PagenatedListApi_HostAddress}}/todos/1
+Accept: application/json
+
+###
